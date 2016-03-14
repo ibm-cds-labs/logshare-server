@@ -1,6 +1,6 @@
 {
   "name": "logshare-server",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Simple logsharing utility - server-side code",
   "scripts": {
     "start": "node app.js"
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/glynnbird/logshare-server"
+    "url": "https://github.com/ibm-cds-labs/logshare-server"
   },
   "engines": {
     "node": "0.12.x"
