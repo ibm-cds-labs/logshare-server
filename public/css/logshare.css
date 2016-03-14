@@ -17,6 +17,9 @@
   background-position: right  top; 
 }
 
+.gap { 
+  height:45px;
+}
 .offblack {
   background-color:#231F20;
   height: 70px;
@@ -24,6 +27,7 @@
 
 .logsharelogo {
   background-image: url("/img/logsharelogo.png");
+  background-repeat: no-repeat;
   width:155px;
   height:45px;
   margin-left:50px;
