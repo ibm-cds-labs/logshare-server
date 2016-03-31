@@ -213,3 +213,5 @@ server.listen(appEnv.port, '0.0.0.0', function() {
 	// print a message when the server starts listening
   console.log("server starting on " + appEnv.url);
 });
+
+require("cf-deployment-tracker-client").track();
