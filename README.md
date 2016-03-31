@@ -78,6 +78,17 @@ Expects a message containing an 'id' and a 'body'. If the logshare id exists, th
 
 Removes the reference to the websocket.
 
+## Deploy to Bluemix
+
+## Running the app on Bluemix
+
+If you want to deploy your own logshare server click the **Deploy to Bluemix** button below.
+
+
+[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/3fba8995133dc6e864d2b621048a940f/button.svg)](https://bluemix.net/deploy?repository=https://github.com/ibm-cds-labs/logshare-server)
+
+**Don't have a Bluemix account?** If you haven't already, you'll be prompted to sign up for a Bluemix account when you click the button.  Sign up, verify your email address, then return here and click the the **Deploy to Bluemix** button again. Your new credentials let you deploy to the platform and also to code online with Bluemix and Git. If you have questions about working in Bluemix, find answers in the [Bluemix Docs](https://www.ng.bluemix.net/docs/).
+
 
 
 
