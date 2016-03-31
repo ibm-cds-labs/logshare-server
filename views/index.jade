@@ -7,31 +7,31 @@ body
   div.world
     div.gap
     div.logsharelogo
-    div.title Logshare  
+    div.title Logshare
     div.subtitle Quickly share streaming log data with your colleagues
-      
+
   div.container.gap
     h2 Installation
-    
+
     pre > npm install -g logshare
-    
+
     a(href="https://www.npmjs.com/package/logshare") logshare on NPM
-    
+
     h2 Sharing
-    
+
     pre.
       > tail -f /var/log/system.log | logshare
       Share URL: https://logshare.mybluemix.net/share/kkdgapgdx
-      
-    div Then share the URL for hit Ctrl-C to stop sharing.
-    
+
+    div Then share the URL, or hit Ctrl-C to stop sharing.
+
     div &nbsp;
-        
-    div         
+
+    div
       img.img-responsive(src="https://raw.githubusercontent.com/ibm-cds-labs/logshare-server/master/public/img/demo.gif")
 
     div &nbsp;
-    
+
     div Command-line users can consume the feed at their terminal with:
     pre.
       >  logshare https://logshare.mybluemix.net/share/kkdgapgdx
@@ -40,13 +40,12 @@ body
       >  logshare kkdgapgdx
 
     h2 Source code
-    
+
     div
       ul
         li
           a(href="https://github.com/ibm-cds-labs/logshare-client") logshare-client
         li
           a(href="https://github.com/ibm-cds-labs/logshare-server") logshare-server
-               
-    
- 
+
+
