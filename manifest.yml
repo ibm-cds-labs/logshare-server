@@ -2,7 +2,8 @@ applications:
 - path: .
   memory: 256M
   instances: 1
+  host: logshare-${random-word}
   domain: mybluemix.net
+  random-route: true
   name: logshare
-  host: logshare
   disk_quota: 1024M
