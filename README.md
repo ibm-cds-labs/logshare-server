@@ -89,7 +89,11 @@ If you want to deploy your own logshare server click the **Deploy to Bluemix** b
 
 **Don't have a Bluemix account?** If you haven't already, you'll be prompted to sign up for a Bluemix account when you click the button.  Sign up, verify your email address, then return here and click the the **Deploy to Bluemix** button again. Your new credentials let you deploy to the platform and also to code online with Bluemix and Git. If you have questions about working in Bluemix, find answers in the [Bluemix Docs](https://www.ng.bluemix.net/docs/).
 
+## Privacy and data retention
 
+This project makes no guarantees as to the privacy of the data that you stream to logshare. If you are using https://logshare.mybluemix.net then the data is encrypted between the producer and server, and between the server and the consumers. There is no authentication mechanism to prevent an unknown third party observing your data stream, if they can guess the nine-digit session token. So don’t consider it safe for confidential data. It is designed to relay streaming data across development teams temporarily, not for anything you wouldn’t want others to see.
+
+This project does not store your data at any time. Log data goes to a Redis pubsub channel and then relays immediately to any connected clients who have subscribed to that session. The data is then discarded, with only meta data about the session (the number of lines of data and the number of bytes of data received) being retained.
 
 
 
